@@ -33,7 +33,14 @@ python3 -m venv venv
 source venv/bin/activate
 
 #Install the ocean.py library. Install wheel first to avoid errors.
+pip install wheel
+pip install ocean-lib
+
+#Install the HF libraries.
+pip install datasets
 pip install transformers
+
+pip install notebook
 ```
 
 # 👪 Community
